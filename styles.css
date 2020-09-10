@@ -67,6 +67,7 @@ header h1 {
 }
 
 .cell {
+	padding: 10px 0;
 	float: left;
 	width: 33%;
 }
@@ -79,7 +80,9 @@ header h1 {
 
 .content div {
 	box-sizing: border-box;			
-	height: 50px;
 }
 
+.clear {
+	clear: both;
+}
 

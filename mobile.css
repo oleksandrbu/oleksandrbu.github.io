@@ -1,0 +1,186 @@
+body {
+	width: 373px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+span {
+	font-size: 12px;
+	line-height: 15px;
+}
+
+header {
+	text-align: center;
+	background: rgba(198, 108, 73, 0.4) url("bg_mobile.png");
+	height: 275px;
+}
+
+header h1 {
+	margin: 36px 0 0;
+}
+
+header span {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+header span:nth-of-type(1) {
+	font-size: 20px;
+	line-height: 24px;
+	
+	margin: 50px 0 0;
+}	
+
+header span:nth-of-type(2) {	
+	margin: 13px 0 0;
+}	
+
+header span:nth-of-type(3) {
+	text-decoration-line: underline;
+	
+	margin: 41px 0 36px;
+}
+
+h1 {
+	margin: 25px auto 19px;	
+	text-align: center;
+	font-weight: 600;
+}
+
+#about {
+	text-align: justify;
+}
+
+#about span {
+	margin: 0 34px 8px 29px;	
+}
+
+#skills {
+	flex-flow: column;
+	align-items: center;
+}
+
+#skills img {
+	width: 224px;
+	height: 218px;
+}
+
+#skills span {
+	font-size: 12px;
+	line-height: 25px;
+}
+
+#skills>div {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 25px 32px;
+	display: flex;
+	flex-flow: column;
+}
+
+#skills>div>div {
+	display: flex;
+	position: relative;
+}
+
+#skills>div>div:nth-child(even) {
+	margin: 25px 0 0;
+}
+
+#skills>div>div>*:first-child {
+	font-weight: 600;
+}
+
+#skills>div>div>*:last-child{
+	position: absolute;
+	left: 98px;
+}
+
+.progress {
+	width: 210px;
+	height: 18px;
+	background-color: #F5D6AB;
+}
+
+.progress>div {
+	height: inherit;
+	background-color: #C66C49;
+}
+
+#bar1 {
+	width: 135px;
+}
+
+#bar2 {
+	width: 165px;
+}
+
+#bar3 {
+	width: 179px;
+}
+
+#portfolio {
+	display: flex;
+	text-align: center;
+}
+
+#portfolio>h3 {
+	margin: 0;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 500;
+}
+
+#portfolio span {
+	margin: 0;
+	padding: 0;
+}
+
+#portfolio>div {
+	margin: 15px 34px 24px 31px;
+	font-weight: normal;
+}
+
+#portfolio img:nth-of-type(1) {
+	width: 170px;
+	height: 70px;
+}
+
+#portfolio img:nth-of-type(2) {
+	width: 124px;
+	height: auto;
+}
+
+#portfolio img:nth-of-type(3) {
+	width: 170px;
+	height: 113px;
+	margin: 12px 0 0;
+}
+
+#portfolio img:nth-of-type(4) {
+	width: 124px;
+	height: 70px;
+	margin: 12px 0 0;
+}
+
+footer>h1 {
+	margin-bottom: 25px;
+}
+
+footer>div {
+	padding: 0 42px;
+}
+
+footer>div:nth-of-type(1)>span {
+	padding: 0 0 19px;
+}
+
+footer>div:nth-of-type(2)>span:nth-of-type(1) {
+	padding: 0 0 7px;
+}
+
+
+footer span{
+	font-size: 14px;
+	line-height: 17px;
+}
