@@ -61,9 +61,7 @@ h1 {
 }
 
 footer {
-	padding-bottom: 50px;
 	display: flex;
-	flex-flow: column;
 	background-color: #FFFAF2;
 }
 
@@ -75,10 +73,5 @@ footer>div:nth-of-type(1) {
 footer>div:last-child {
 	display: flex;
 	flex-flow: column;
-}
-
-footer>div>span {
-	margin: 0;
-	width: 50%;
 }
 
