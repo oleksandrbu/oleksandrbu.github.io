@@ -12,7 +12,7 @@ body {
 
 header {
 	color: #FFFAF2;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-blend-mode: screen;
 	display: flex;
@@ -111,4 +111,9 @@ footer>div:last-child {
 	right: 165px;
 	top: 93px;
 	left: 745px;
+}
+
+footer>div:nth-of-type(2) {
+	display: flex;;
+	flex-flow: column;
 }
