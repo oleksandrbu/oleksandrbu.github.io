@@ -1,5 +1,4 @@
 body {
-	width: 373px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -206,4 +205,17 @@ footer>div:last-child>span:last-child{
 footer>div>span {
 	margin: 0;
 	width: 50%;
+}
+
+#up {
+	right: 32px;
+	bottom: 58px;
+}
+
+#menu {
+	visibility: visible;
+}
+
+#menu-bar {
+	visibility: hidden;
 }

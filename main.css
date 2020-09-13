@@ -15,12 +15,11 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-blend-mode: screen;
-
 	display: flex;
 	flex-flow: column;
-
 	margin: 0;
 	padding: 0;
+	position: relative;
 }
 
 h1 {
@@ -61,6 +60,7 @@ h1 {
 }
 
 footer {
+	position: relative;
 	display: flex;
 	background-color: #FFFAF2;
 }
@@ -75,3 +75,40 @@ footer>div:last-child {
 	flex-flow: column;
 }
 
+@font-face {
+	font-family: MDL2;
+	src: url("./SegMDL2.ttf");
+}
+
+#up {
+	position: absolute;
+	font-family: MDL2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+#menu {
+	position: absolute;
+	font-family: MDL2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	left: 34px;
+	top: 39px;
+}
+
+#menu-bar {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 165px;
+	top: 93px;
+	left: 745px;
+}
